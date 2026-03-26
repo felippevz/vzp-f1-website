@@ -10,3 +10,9 @@ body {
     background-color: var(--background-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 } 
+
+.sections {
+    width: 70%;
+    text-align: justify;
+    margin-left: 15%;
+}
