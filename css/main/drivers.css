@@ -2,10 +2,6 @@ section#drivers {
     display: flow-root;
 }
 
-section#drivers h2 {
-    text-align: center;
-}
-
 section#drivers img {
     float: left;
     width: 400px;
