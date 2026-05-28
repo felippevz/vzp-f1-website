@@ -17,8 +17,6 @@ function applyTheme(key, cardElement) {
     };
     Object.entries(vars).forEach(([k, v]) => cardElement.style.setProperty(k, v));
     
-    // Opcional: Se você tiver um elemento global para o nome da equipe, mantenha a linha abaixo.
-    // Como são múltiplos cards, o ideal é atualizar o texto dentro de cada card.
     const teamNameEl = document.getElementById('cardTeamName');
     if (teamNameEl) teamNameEl.textContent = key;
 }

@@ -156,6 +156,20 @@ export const TEAMS = {
         banner: "https://r2.thesportsdb.com/images/media/team/banner/7n0r9m1740776043.jpg",
         equipment: "https://www.thesportsdb.com/images/media/team/equipment/yf8z0u1773232144.png",
     },
+    "SENAI formula 1 team": {
+        alternate: "SENAI",
+        formedYear: 1942,
+        location: "Brazilian",
+        website: "https://www.sp.senai.br/",
+        facebook: "https://www.facebook.com/WilliamsF1Team",
+        twitter: "https://twitter.com/WilliamsRacing",
+        instagram: "https://www.instagram.com/williamsracing",
+        country: "Brazil",
+        badge: "./data/senai.png",
+        logo: "./data/senai.png",
+        banner: "./data/senai.png",
+        equipment: "./data/senai.png",
+    }
 };
 
 export default TEAMS;
