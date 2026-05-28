@@ -208,7 +208,7 @@ const DRIVERS = {
         nationality: "German",
         permanentNumber: "27",
         code: "HUL",
-        team: "audi revolut f1 team",
+        team: "stake f1 team kick sauber",
         cutout: "https://r2.thesportsdb.com/images/media/player/cutout/90zkg81773160744.png",
     },
 
@@ -220,7 +220,7 @@ const DRIVERS = {
         nationality: "Brazilian",
         permanentNumber: "88",
         code: "BOR",
-        team: "audi revolut f1 team",
+        team: "stake f1 team kick sauber",
         cutout: "https://r2.thesportsdb.com/images/media/player/cutout/dw6mi31773160637.png",
     },
 
@@ -273,6 +273,28 @@ const DRIVERS = {
         team: "cadillac formula 1 team",
         cutout: "https://r2.thesportsdb.com/images/media/player/cutout/kf5lq01772535017.png",
     },
+    "fabio_silva": {
+        id: "fabio_silva",
+        givenName: "Fábio",
+        familyName: "Silva",
+        dateOfBirth: "2001-02-12",
+        nationality: "Brazilian",
+        permanentNumber: "67",
+        code: "SIL",
+        team: "SENAI formula 1 team",
+        cutout: "./data/fabio.png",    
+    },
+    "miguel_santana": {
+        id: "miguel_santana",
+        givenName: "Miguel",
+        familyName: "Santana",
+        dateOfBirth: "2008-02-11",
+        nationality: "Brazilian",
+        permanentNumber: "69",
+        code: "SAN",
+        team: "SENAI formula 1 team",
+        cutout: "./data/miguel.png",    
+    }
 };
 
 export default DRIVERS;

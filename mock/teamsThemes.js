@@ -38,7 +38,7 @@ const THEMES = {
     "value": "#ffd0c8",
     "swatch": "#dc2b17"
   },
-  "mercedesmercedes-amg petronas formula one team": {
+  "mercedes-amg petronas formula one team": {
     "bg": "#071a18",
     "border": "#0f3530",
     "num": "rgba(255,255,255,0.04)",
@@ -141,7 +141,20 @@ const THEMES = {
     "label": "#555555",
     "value": "#dddddd",
     "swatch": "#cccccc"
-  }
+  },
+  "SENAI formula 1 team": {
+    "bg": "#121212",
+    "border": "#262626",
+    "num": "rgba(217, 30, 24, 0.06)",
+    "accent": "#d91e18",
+    "badgeBg": "#d91e18",
+    "badgeText": "#ffffff",
+    "name": "#ffffff",
+    "team": "#d91e18",
+    "label": "#888888",
+    "value": "#ffffff",
+    "swatch": "#d91e18"
+  },
 };
 
 export default THEMES;
