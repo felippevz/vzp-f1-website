@@ -1,10 +1,16 @@
+header {
+    position: absolute;    
+    width: 100vw;  
+    justify-items: center;
+    z-index: 1;
+}
+
 nav {
     display: flex;
+    width: 70%;
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--primary-color);
-    padding: 10px 20px;
-    box-shadow: 0 1px 4px var(--secondary-color);
 }
 
 nav ul {
@@ -15,10 +21,11 @@ nav ul {
 }
 
 nav a {
-    color: var(--secondary-color);
+    color: white;
     text-decoration: none;
     font-size: 18px;
     margin: 0 10px;
+    font-weight: bold;
 }
 
 nav a:hover {
