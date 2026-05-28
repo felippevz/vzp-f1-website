@@ -1,0 +1,125 @@
+.drivers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    height: 200px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--t-bg); /* Substituído #0e1c16 */
+    border: 0.5px solid var(--t-border); /* Substituído #1f3d2c */
+}
+
+.card-number {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 160px;
+    font-weight: 700;
+    color: var(--t-num); /* Substituído o rgba antigo */
+    line-height: 1;
+    letter-spacing: -4px;
+    pointer-events: none;
+    user-select: none;
+    z-index: 1;
+}
+
+.card-photo {
+    width: 40%;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.card-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
+.card-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 20px 18px;
+    position: relative;
+    z-index: 2;
+}
+
+.driver-number-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--t-badge-bg); /* Substituído #00594f */
+    color: var(--t-badge-text); /* Substituído #a8ffd6 */
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 4px;
+    width: fit-content;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.driver-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--t-name); /* Substituído #f0f4f2 */
+    margin: 0 0 4px;
+    line-height: 1.2;
+}
+
+.driver-team {
+    font-size: 11px;
+    color: var(--t-team); /* Substituído #6abf8c */
+    margin: 0 0 14px;
+    line-height: 1.4;
+}
+
+.divider {
+    width: 28px;
+    height: 2px;
+    background: var(--t-accent); /* Substituído #00a86b */
+    border-radius: 2px;
+    margin-bottom: 12px;
+}
+
+.driver-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detail-row {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    color: var(--t-value); /* Ajustado para seguir o padrão de cor do texto corrido */
+}
+
+.detail-row i {
+    font-size: 14px;
+    color: var(--t-accent); /* Substituído #3dba7a pelo sotaque/accent da equipe */
+    flex-shrink: 0;
+}
+
+.detail-label {
+    color: var(--t-label); /* Substituído #4d7a60 */
+    margin-right: 2px;
+}
+
+.detail-value {
+    color: var(--t-value); /* Substituído #c5ddd0 */
+    font-weight: 500;
+}
