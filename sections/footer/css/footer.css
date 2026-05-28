@@ -1,0 +1,39 @@
+footer {
+    background-color: #000000;
+    color: #ccc;
+    justify-content: space-between;
+    padding: 5px;
+    bottom: 0;
+    box-shadow: 0 -2px 4px var(--secondary-color);
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 13px;
+}
