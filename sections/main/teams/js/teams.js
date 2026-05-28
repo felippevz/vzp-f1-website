@@ -51,5 +51,4 @@ async function fetchF1Teams() {
     }
 }
 
-// Executa a função
 fetchF1Teams();

@@ -11,8 +11,8 @@
     height: 200px;
     border-radius: 14px;
     overflow: hidden;
-    background: var(--t-bg); /* Substituído #0e1c16 */
-    border: 0.5px solid var(--t-border); /* Substituído #1f3d2c */
+    background: var(--t-bg);
+    border: 0.5px solid var(--t-border); 
 }
 
 .card-number {
@@ -22,7 +22,7 @@
     transform: translateY(-50%);
     font-size: 160px;
     font-weight: 700;
-    color: var(--t-num); /* Substituído o rgba antigo */
+    color: var(--t-num);
     line-height: 1;
     letter-spacing: -4px;
     pointer-events: none;
@@ -60,8 +60,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--t-badge-bg); /* Substituído #00594f */
-    color: var(--t-badge-text); /* Substituído #a8ffd6 */
+    background: var(--t-badge-bg);
+    color: var(--t-badge-text);
     font-size: 11px;
     font-weight: 500;
     padding: 3px 9px;
@@ -74,14 +74,14 @@
 .driver-name {
     font-size: 20px;
     font-weight: 500;
-    color: var(--t-name); /* Substituído #f0f4f2 */
+    color: var(--t-name);
     margin: 0 0 4px;
     line-height: 1.2;
 }
 
 .driver-team {
     font-size: 11px;
-    color: var(--t-team); /* Substituído #6abf8c */
+    color: var(--t-team);
     margin: 0 0 14px;
     line-height: 1.4;
 }
@@ -89,7 +89,7 @@
 .divider {
     width: 28px;
     height: 2px;
-    background: var(--t-accent); /* Substituído #00a86b */
+    background: var(--t-accent);
     border-radius: 2px;
     margin-bottom: 12px;
 }
@@ -105,21 +105,21 @@
     align-items: center;
     gap: 7px;
     font-size: 12px;
-    color: var(--t-value); /* Ajustado para seguir o padrão de cor do texto corrido */
+    color: var(--t-value);
 }
 
 .detail-row i {
     font-size: 14px;
-    color: var(--t-accent); /* Substituído #3dba7a pelo sotaque/accent da equipe */
+    color: var(--t-accent);
     flex-shrink: 0;
 }
 
 .detail-label {
-    color: var(--t-label); /* Substituído #4d7a60 */
+    color: var(--t-label);
     margin-right: 2px;
 }
 
 .detail-value {
-    color: var(--t-value); /* Substituído #c5ddd0 */
+    color: var(--t-value);
     font-weight: 500;
 }
